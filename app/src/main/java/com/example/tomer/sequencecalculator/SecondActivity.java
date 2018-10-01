@@ -67,7 +67,7 @@ public class SecondActivity extends AppCompatActivity implements AdapterView.OnI
             else
                 sum = ((a1 * ((Math.pow(d_q, n)) - 1)) / (d_q - 1));
         }
-        tv4.setText(Double.toString(sum));
+        tv4.setText("Sn= "+Double.toString(sum));
     }
 
     public void back(View view) {
